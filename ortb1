@@ -1,36 +1,38 @@
 {
-	"id": "ff3c0c2d-45c4-4476-b1a4-41d6e81c065c",
-	"seatbid": [{
-		"bid": [{
-			"id": "613673EF-A07C-4486-8EE9-3FC71A7DC73D",
-			"impid": "8d772e98-1577-464c-95c4-ffb9fbcf0bd1",
-			"price": 1,
-			"adm": "\u003cstyle\u003e body, html {height: 100%; margin: 0; } .bg {/* The image used */ background-image: url(\"https://ads.pubmatic.com/api/utility/publisher/130917/18959/PubMaticAdServer/Creative/4d2ea2bc-dd14-4afe-973a-8207de377927/TEST-AD-320x50.png\"); /* Full height */ height: 100%; /* Center and scale the image nicely */ background-position: center; background-repeat: no-repeat; background-size: contain; }\u003c/style\u003e \u003c/head\u003e \u003cbody\u003e \u003ca href=\"https://pubmatic.com/\"\u003e\u003cdiv class=\"bg\" style=\"background-color:#4EC8ED\"\u003e\u003c/div\u003e\u003c/a\u003e \u003c/body\u003e\u003cdiv style=\"position:absolute;left:0px;top:0px;visibility:hidden;\"\u003e\u003cimg src=\"//t.pubmatic.com/wt?bidid=613673EF-A07C-4486-8EE9-3FC71A7DC73D\u0026eg=1\u0026en=1\u0026iid=cb62caa4-04fd-4777-891b-98785883ab45\u0026kgpv=%2F15671365%2Fpm_sdk%2FPMSDK-Demo-App-Banner%40320x50\u0026pdvid=0\u0026pid=1165\u0026pn=pubmatic\u0026pubid=156276\u0026purl=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.example.android%26hl%3Den\u0026slot=8d772e98-1577-464c-95c4-ffb9fbcf0bd1_%2F15671365%2Fpm_sdk%2FPMSDK-Demo-App-Banner\u0026tst=1598212888\"\u003e\u003c/div\u003e",
-			"adomain": ["www.pubmatic.com"],
-			"iurl": "http://localhost11",
-			"crid": "creative111",
-			"h": 50,
-			"w": 320,
-			"ext": {
-				"refreshInterval": 10,
-				"crtype": "banner",
-				"prebid": {
-					"targeting": {
-						"pwtpb": "1.00"
+	"data":{
+		"id": "ff3c0c2d-45c4-4476-b1a4-41d6e81c065c",
+		"seatbid": [{
+			"bid": [{
+				"id": "613673EF-A07C-4486-8EE9-3FC71A7DC73D",
+				"impid": "8d772e98-1577-464c-95c4-ffb9fbcf0bd1",
+				"price": 1,
+				"adm": "\u003cstyle\u003e body, html {height: 100%; margin: 0; } .bg {/* The image used */ background-image: url(\"https://ads.pubmatic.com/api/utility/publisher/130917/18959/PubMaticAdServer/Creative/4d2ea2bc-dd14-4afe-973a-8207de377927/TEST-AD-320x50.png\"); /* Full height */ height: 100%; /* Center and scale the image nicely */ background-position: center; background-repeat: no-repeat; background-size: contain; }\u003c/style\u003e \u003c/head\u003e \u003cbody\u003e \u003ca href=\"https://pubmatic.com/\"\u003e\u003cdiv class=\"bg\" style=\"background-color:#4EC8ED\"\u003e\u003c/div\u003e\u003c/a\u003e \u003c/body\u003e\u003cdiv style=\"position:absolute;left:0px;top:0px;visibility:hidden;\"\u003e\u003cimg src=\"//t.pubmatic.com/wt?bidid=613673EF-A07C-4486-8EE9-3FC71A7DC73D\u0026eg=1\u0026en=1\u0026iid=cb62caa4-04fd-4777-891b-98785883ab45\u0026kgpv=%2F15671365%2Fpm_sdk%2FPMSDK-Demo-App-Banner%40320x50\u0026pdvid=0\u0026pid=1165\u0026pn=pubmatic\u0026pubid=156276\u0026purl=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.example.android%26hl%3Den\u0026slot=8d772e98-1577-464c-95c4-ffb9fbcf0bd1_%2F15671365%2Fpm_sdk%2FPMSDK-Demo-App-Banner\u0026tst=1598212888\"\u003e\u003c/div\u003e",
+				"adomain": ["www.pubmatic.com"],
+				"iurl": "http://localhost11",
+				"crid": "creative111",
+				"h": 50,
+				"w": 320,
+				"ext": {
+					"refreshInterval": 10,
+					"crtype": "banner",
+					"prebid": {
+						"targeting": {
+							"pwtpb": "1.00"
+						}
 					}
 				}
-			}
+			}],
+			"seat": "pubmatic"
 		}],
-		"seat": "pubmatic"
-	}],
-	"cur": "USD",
-	"ext": {
-		"matchedimpression": {
-			"pubmatic": 0
-		},
-		"responsetimemillis": {
-			"pubmatic": 3
-		},
-		"tmaxrequest": 489
-	}
+		"cur": "USD",
+		"ext": {
+			"matchedimpression": {
+				"pubmatic": 0
+			},
+			"responsetimemillis": {
+				"pubmatic": 3
+			},
+			"tmaxrequest": 489
+		}
+	}	
 }
