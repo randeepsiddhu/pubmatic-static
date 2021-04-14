@@ -11,7 +11,8 @@ const omidSession = OmidCreativeSession.main([{
   'vendorKey': null,
   'verificationParameters': null
 }]);
-alert("Hello! I am an alert box!!");
+
+document.getElementById("p1").innerHTML = "New text";
 omidSession.setCreativeType('htmlDisplay');
 omidSession.setImpressionType('loaded');
 omidSession.loaded();
